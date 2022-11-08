@@ -1,9 +1,9 @@
 {
-    "name": "Mario Souto (DevSoutinho)",
-    "job": "Lead Software Engineer",
-    "github": "omariosouto",
+    "name": "Arthur Cortes (arthurpc02)",
+    "job": "Software Engineer",
+    "github": "arthurpc02",
     "playlists": {
-      "jogos": [
+      "programacao": [
           {
             "title": "Frostpunk - Neve e Steak tartare",
             "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
@@ -45,11 +45,11 @@
             "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
           }
         ],
-      "front-end": [
+      "evolução": [
         {
-          "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-          "url": "https://youtube.com/watch?v=jOAU81jdi-c",
-          "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+          "title": "The Smile Test",
+          "url": "https://youtu.be/5cysPPnZEhM",
+          "thumb": "https://img.youtube.com/vi/5cysPPnZEhM/hqdefault.jpg"
         },
         {
           "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
@@ -92,7 +92,7 @@
           "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
         }
       ],
-      "back-end": [
+      "musicas": [
         {
           "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
           "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
