@@ -23,9 +23,8 @@ const theme = {
 function MyApp({ Component, pageProps }) {
     console.log("_app.js");
 
-
     return (
-        <ThemeProvider theme={theme.light}>
+        <ThemeProvider theme={theme.dark}>
             <CSSReset />
             <Component{...pageProps} />
         </ThemeProvider>
