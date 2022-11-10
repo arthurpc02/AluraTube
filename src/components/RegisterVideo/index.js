@@ -13,6 +13,9 @@ function useForm(propsDoForm) {
                 ...values,
                 titulo: value,
             });
+        },
+        clearForm(){
+            setValues({});
         }
     };
 }
@@ -42,9 +45,11 @@ export default function RegisterVideo() {
                 ? (
                     <form onSubmit={(evento) => {
                         evento.preventDefault();
+                        setFormVisivel(false);
+                        formCadastro.clearForm();
                     }}>
                         <div>
-                            <button className="close-modal" onClick={() => setFormVisivel(false)}>
+                            <button type="button" className="close-modal" onClick={() => setFormVisivel(false)}>
                                 X
                             </button>
                             <input placeholder="Título do vídeo"
